@@ -1,2 +1,2 @@
-export const API_URL = '9cff6e5fbadbf3cda7ace10dd660ce94';
-export const API_KEY = 'YOUR_API_KEY';
+export const API_URL = 'https://api.openweathermap.org';
+export const API_KEY = '803f9fe607f72a1f94a0693a5f9d6b71';

@@ -1,10 +1,10 @@
 import React from 'react';
-import WeatherHome from './view/components/WeatherInHome';
-
+import WeatherInHome from './view/components/WeatherInHome';
+import './App.css'
 function App() {
   return (
     <div className="App">
-      <WeatherHome />
+      <WeatherInHome />
     </div>
   );
 }

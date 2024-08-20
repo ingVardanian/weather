@@ -1,10 +1,11 @@
 import React from 'react';
-
-const WeatherDayInfo = ({ day, tempMax, tempMin, icon }) => (
-  <div>
-    <p>{day}</p>
-    <p>{tempMax}°C / {tempMin}°C</p>
+import './index.css'
+const WeatherDayInfo = ({day, tempMax, tempMin, icon}) => (
+  <div className='cardWrapper'>
     <img src={`http://openweathermap.org/img/w/${icon}.png`} alt="Weather icon" />
+    <p className='day'>{day}</p>
+    <p className='maxTemp'>max: {tempMax}°C </p>
+    <p className='minTemp'>min: {tempMin}°C`</p>
   </div>
 );
 
